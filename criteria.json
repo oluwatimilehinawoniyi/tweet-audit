@@ -1,0 +1,9 @@
+{
+  "forbiddenWords": [
+    "crypto",
+    "NFT"
+  ],
+  "professionalCheck": true,
+  "tone": "respectful and thoughtful",
+  "excludePolitics": false
+}
