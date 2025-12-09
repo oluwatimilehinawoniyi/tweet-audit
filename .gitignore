@@ -40,6 +40,8 @@ build/
 *.csv
 results_checkpoint.txt
 *_checkpoint.txt
+tweets.json
 tweets.js
+src/data/tweets.json
 .env
 *.patch

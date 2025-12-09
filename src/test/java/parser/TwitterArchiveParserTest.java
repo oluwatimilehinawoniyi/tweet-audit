@@ -20,7 +20,7 @@ class TwitterArchiveParserTest {
 
     @Test
     void parsesTweetsFromFile() throws IOException {
-        List<Tweet> tweets = parser.parseTweets("data/tweets.js");
+        List<Tweet> tweets = parser.parseTweets("src/data/tweets.json");
 
         assertFalse(tweets.isEmpty());
         assertNotNull(tweets.getFirst().id());
