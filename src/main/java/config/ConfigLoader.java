@@ -1,6 +1,6 @@
 package config;
 
-import AI_Client.EvaluationCriteria;
+import ai_client.EvaluationCriteria;
 import com.google.gson.Gson;
 
 import java.io.FileReader;

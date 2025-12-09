@@ -1,9 +1,9 @@
-package AI_Client;
+package ai_client;
 
 import com.google.genai.Client;
 import com.google.genai.types.*;
-import AI_Client.retry.RateLimiter;
-import AI_Client.retry.RetryHandler;
+import ai_client.retry.RateLimiter;
+import ai_client.retry.RetryHandler;
 import model.EvaluationResult;
 import model.enums.ProcessingStatus;
 

@@ -26,7 +26,7 @@ I used a small component-based design so each responsibility stayed
 isolated:
 
 - csv package: writes deletion results and maintains a checkpoint file
-- AI_Client package: handles GenAI calls, rate limits, and retries
+- ai_client package: handles GenAI calls, rate limits, and retries
 - parser package: unwraps Twitter’s JS-style JSON and maps it into Java
   records
 - orchestrator package: coordinates workflow - load state, parse tweets,

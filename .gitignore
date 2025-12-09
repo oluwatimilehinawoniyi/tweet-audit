@@ -42,3 +42,4 @@ results_checkpoint.txt
 *_checkpoint.txt
 tweets.js
 .env
+*.patch

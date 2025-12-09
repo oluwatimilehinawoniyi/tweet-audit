@@ -1,4 +1,4 @@
-package AI_Client;
+package ai_client;
 
 import model.EvaluationResult;
 import model.enums.ProcessingStatus;

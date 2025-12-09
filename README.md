@@ -109,7 +109,7 @@ exponential backoff.
 
 ```
 src/main/java/
-    AI_Client/      # Gemini API integration
+    ai_client/      # Gemini API integration
     csv/            # State management
     parser/         # Twitter archive parsing
     orchestrator/   # Main workflow

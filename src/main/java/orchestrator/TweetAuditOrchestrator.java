@@ -1,9 +1,9 @@
 package orchestrator;
 
 import csv.CsvHandler;
-import AI_Client.EvaluationCriteria;
-import AI_Client.GeminiClient;
-import AI_Client.TweetEvaluator;
+import ai_client.EvaluationCriteria;
+import ai_client.GeminiClient;
+import ai_client.TweetEvaluator;
 import model.EvaluationResult;
 import model.Tweet;
 import parser.TwitterArchiveParser;

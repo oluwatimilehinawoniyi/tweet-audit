@@ -1,4 +1,4 @@
-package AI_Client.retry;
+package ai_client.retry;
 
 import java.util.function.Supplier;
 

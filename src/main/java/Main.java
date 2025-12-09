@@ -1,4 +1,4 @@
-import AI_Client.EvaluationCriteria;
+import ai_client.EvaluationCriteria;
 import config.ConfigLoader;
 import orchestrator.TweetAuditOrchestrator;
 

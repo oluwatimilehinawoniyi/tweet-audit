@@ -1,4 +1,4 @@
-package AI_Client.retry;
+package ai_client.retry;
 
 public class RateLimiter {
     private static final long MIN_INTERVAL_MS = 4000;
