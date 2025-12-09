@@ -11,13 +11,10 @@ import java.util.List;
 
 public class TwitterArchiveParser {
     public List<Tweet> parseTweets(String filePath) throws IOException {
-        String raw = Files.readString(Path.of(filePath));
-        int start = raw.indexOf('[');
-        int end = raw.lastIndexOf(']') + 1;
-        String json = raw.substring(start, end);
+        String tweetJson = Files.readString(Path.of(filePath));
         Gson gson = new Gson();
         TweetWrapper[] wrappers =
-                gson.fromJson(json, TweetWrapper[].class);
+                gson.fromJson(tweetJson, TweetWrapper[].class);
 
         List<Tweet> tweets = new ArrayList<>();
         for (TweetWrapper wrapper : wrappers) {
