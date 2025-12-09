@@ -70,7 +70,8 @@ For Windows (Command Prompt):
 Example:
 
 ```bash
-  java -jar target/tweet-audit-1.0-SNAPSHOT.jar data/tweets.js results.csv criteria.json
+  java -jar target/tweet-audit-1.0-SNAPSHOT.jar src/data/tweets.json 
+  results.csv criteria.json
 ```
 
 ## Configuration
@@ -109,7 +110,7 @@ exponential backoff.
 
 ```
 src/main/java/
-    AI_Client/      # Gemini API integration
+    ai_client/      # Gemini API integration
     csv/            # State management
     parser/         # Twitter archive parsing
     orchestrator/   # Main workflow
