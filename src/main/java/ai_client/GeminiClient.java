@@ -11,8 +11,8 @@ import java.util.Objects;
 
 public class GeminiClient implements TweetEvaluator {
     private final EvaluationCriteria criteria;
-    private final RateLimiter rateLimiter = new RateLimiter();
-    private final RetryHandler retryHandler = new RetryHandler();
+    private final RateLimiter rateLimiter = new RateLimiter(4000);
+    private final RetryHandler retryHandler = new RetryHandler(3, 1000);
 
     public GeminiClient(EvaluationCriteria criteria) {
         this.criteria = criteria;
